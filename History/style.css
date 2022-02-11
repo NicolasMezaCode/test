@@ -1,0 +1,97 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, cursive;
+    /* max-width: 1440px; */
+    font-size: 20px;
+}
+
+.MainHeader{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    width: 90%;
+    justify-content: center;
+    max-width: 1240px;
+}
+
+.MainHeader__container{
+    width: 100%;
+    background-color: #4d4c4c;
+    opacity: 0.9;
+    padding: 25px 0px;
+    position: fixed;
+}
+
+.hero {
+    background-image: url(../Pics/repubblica-di-venezia.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+}
+
+.pic2 {
+    /* background-image: url(../1920px-Winged_lion_West_facade_St_Marks_Basilica.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px; */
+}
+
+.MainHeader__inner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    /* width: 60%; */
+}
+
+.MainHeader__inner-right{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    font-size: 24px;
+}
+
+.top__container-pic{
+    height: 75vh;
+    background-size: cover;
+    background-image: url();
+}
+
+.history{
+    padding-top: 10em;
+}
+.history__container{
+    display: flex;
+}
+
+.history__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .24);
+}
+
+.history__pic {
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.history__pic.pic__1 {
+    background-image: url(../Pics/repubblica-di-venezia.jpg);
+}
+
+.history__pic.pic__2 {
+    background-image: url(../Pics/bg.jpg);
+}
+
+.history__sentence {
+    margin-left: 20px;
+}
+
+.history__sentence h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
